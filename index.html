@@ -1,0 +1,543 @@
+<DOCTYPE html>
+    <html>
+        <head>
+        <title>
+            Homepage
+        </title>
+
+        <style>
+            header{ 
+                width:100%;
+                height:50px;
+               
+               float:left;
+               box-sizing: border-box;
+              padding: 6px; 
+            }
+
+            body{
+                padding:0;
+                margin:0;
+            }
+
+            #brand{
+                padding: 0;
+                margin: 0;
+                font-family: sans-serif;
+                float:left;
+                margin-left: 24px;
+            }
+            #tag_line{
+                float: right;
+                margin: 0;
+                padding: 0;
+                margin-top: 10px;
+                font-family: century gothic;
+                margin-right: 24px;
+                
+                }
+                nav{
+                    width: 100%;
+                    height: 106px;
+                    background-color: blue;
+                    float: left;
+                    box-sizing: border-box;
+                    padding: 30px;
+            }
+            #search{
+                width: 400px;
+                height: 40px;
+                float: left;
+                box-sizing: border-box;
+                border: none;
+                font-size: 16px;
+                padding: 10px;
+            }
+
+            #search-btn{
+                width: 100px;
+                height: 40px;
+                float: left;
+                box-sizing: border-box;
+                border: none;
+                margin-left: 3px;
+                font-size: 16px;
+
+            }
+            #menu_table{
+                width: 600px;
+                height: 40px;
+                float:right;
+                box-sizing:border-box;
+                
+               
+
+            }
+            #menu_item{
+                background-color: white;
+                width: 20%;
+                
+                text-align: center;
+
+
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-family: sans-serif;
+            }
+            section{
+                width: 100%;
+                height: 1650px;
+                float: left;
+                box-sizing: border-box;
+                border-width: 1px;
+                border-style: solid;
+                border-color: blue;
+                padding: 30px;
+            }
+
+            #Venue{
+                float: left;
+            }
+            #phone{
+                float: right;
+                margin-bottom: 10px;
+            }
+            #popular-sweets-box{
+                width: 720px;
+                height: 550px;
+                float: left;
+                box-sizing: border-box;
+                background-color: black;
+                margin-top: 50px;
+                padding: 25px;
+            }
+            #popular-sweets-title{
+                color: white;
+                text-align: center;
+                font-size: 30px;
+                font-family: sans-serif;
+                margin: 0%;
+                padding: 0%;
+            }
+            #popular-sweet-img{
+                width: 300px;
+                height: 200px;
+                margin: 15px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: white;
+                box-sizing: border-box;
+            }
+            #rate_list_box{
+                width: 450px;
+                height: 550px;
+                float: right;
+                box-sizing: border-box;
+                margin-top: 30px;
+            }
+            #rate_header{
+                height: 50px;
+                background-color: black;
+                color:white;
+                text-align: center;
+                font-family: century gothic;
+               
+                font-size: 25px;
+            }
+            #rate_content{
+                background-color: blue;
+
+            }
+            #s_name{
+                color: white;
+                font-family: century gothic;
+                font-size: 22px;
+                padding: 10px;
+                border-bottom-width: 2px;
+                border-bottom-style: solid;
+                border-bottom-color: white;
+            }
+            #rate{
+                list-style: none;
+            }
+            feildset{
+                width: 690px;
+                height: 550;
+                float: left;
+                margin-top: 50px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #ccc;
+                padding: 10px;
+
+            }
+            legend{
+                font-family: century gothic;
+                font-size: 30px;
+                font-weight: bold;
+            }
+           #order_online{
+            font-size: 17px;
+            font-family: sans-serif;
+            
+           }
+          #order_input{
+            width: 100%;
+            height: 35px;
+            box-sizing: border-box;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #ccc;
+            margin-top: 5px;
+
+          }
+          textarea{
+            width: 100%;
+            height: 100px;
+            box-sizing: border-box;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #ccc;
+
+          }
+          #submit_btn{
+            padding: 10px;
+            font-size: 15px;
+            float: right;
+            box-sizing: border-box;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #ccc;
+            background-color: white;
+
+          }
+          #abt_us{
+            width: 450px;
+            height: 550px;
+            float: right;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #ccc;
+            margin-top: 50px;
+            padding: 20px;
+            box-sizing: border-box;
+
+          }
+          #abt_titl{
+            font-family: century gothic;
+            font-size: 30px;
+
+          }
+          #abt_text{
+            text-align: justify;
+            font-family: sans-serif;
+            line-height: 25px;
+          }
+
+          #m_sweets{
+            float: left;
+            width: 100%;
+            box-sizing: border-box;
+
+          }
+          #more_sweets{
+            text-align: center;
+            font-family: century gothic;
+            font-size: 30px;
+          }
+          #sweets{
+            width: 210px;
+            height: 250px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #ccc;
+            float: left;
+            margin-right: 40px;
+          }
+          #sweets_end{
+            width: 200px;
+            height: 250px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #ccc;
+            float: left;
+            
+
+          }
+          #sweets_pic{
+            width: 180px;
+            height: 150px;
+            margin: 15px;
+
+          }
+          #buy_btn{
+            padding: 10px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #ccc;
+            width: 100px;
+            background-color: white;
+          }
+          footer{
+            width: 100%;
+            height: 250px;
+            box-sizing: border-box;
+            float: left;
+            background-color: black;
+          }
+          #contact_us{
+            width: 400px;
+            height: 250px;
+            box-sizing: border-box;
+            float: left;
+           
+            padding: 10px;
+            padding-left: 30px;
+          }
+          #social_link{
+            width: 300px;
+            height: 250px;
+            box-sizing: border-box;
+            float: right;
+           
+          }
+          #contact_title{
+            color: white;
+            font-family: sans-serif;
+            font-weight: normal;
+          }
+          #contact_details{
+            color: white;
+            font-size: 20px;
+            font-family: sans sarif;
+            font-style: normal;
+            margin-bottom: 10px;
+            
+          }
+          #social_logo{
+            width: 60px;
+
+          }
+          #developer{
+            float: left;
+            color: white;
+            font-family: century gothic;
+            margin-top: 200px;
+            margin-left: 120px;
+          }
+
+        </style>
+        <body>
+       <header>
+          <h1 id="brand"> Sweetshop.com</h1>
+            <p id="tag_line"> The worlds largest Sweets & bakeries shop</p>
+       </header> 
+
+       <nav>
+        <form>
+            <input type="search" name="search" placeholder="search your sweets here" id="search">
+            <input type="submit" id="search-btn" value="search">
+        </form>
+        <table id="menu_table">
+            <tr>
+                <td id="menu_item"> <a href="index.html">Home</a></td>
+                <td id="menu_item"> <a href="sweets.html ">Sweets</a></td>
+                <td id="menu_item"> <a href="bakeries.html">Bakeries</a></td>
+                <td id="menu_item"><a href="#abt_us">About us</a></td>
+                <td id="menu_item"><a href="#contact_us">Contact us</a></td>
+            </tr>
+        </table>
+
+
+       </nav>
+       <section>
+        <address id="Vanue">
+
+           Vanue : Gaytri Nagar,Buxar-802101
+        </address>
+        <address id="phone">
+            Order Online :+91 6204154331 ,+9572297127
+        </address>
+
+        <div id="popular-sweets-box">
+            <h1 id="popular-sweets-title">Our Popular Sweets</h1>
+            <img src="images/a.jpg" alt="a" id="popular-sweet-img"/>
+            <img src="images/b.jpg" alt="b" id="popular-sweet-img"/>
+            <img src="images/c.jpg" alt="c" id="popular-sweet-img"/>
+            <img src="images/d.jpg" alt="d" id="popular-sweet-img"/>
+
+        </div>
+        <table id="rate_list_box" >
+            <tr>
+                <td id="rate_header">Sweet Name</td>
+                <td id="rate_header">Price</td>
+            </tr>
+            <tr>
+                <td id="rate_content">
+                    <ol>
+                        <li id="s_name">Rasgulla</li>
+                        <li id="s_name">Laddo</li>
+                        <li id="s_name">Barfee</li>
+                        <li id="s_name">Gulabjamun</li>
+                        <li id="s_name">Rasmalai</li>
+                        <li id="s_name">Rasgulla</li>
+                        <li id="s_name">Rasgulla</li>
+                        <li id="s_name">Rasgulla</li>
+                        <li id="s_name">Rasgulla</li>
+                        <li id="s_name">Rasgulla</li>
+                    </ol>
+                </td>
+                    
+                  
+                
+                <td id="rate_content">
+                    <ol id="rate">
+                        <li id="s_name">200/kg</li>
+                        <li id="s_name">200/kg</li>
+                        <li id="s_name">200/kg</li>
+                        <li id="s_name">200/kg</li>
+                        <li id="s_name">200/kg</li>
+                        <li id="s_name">200/kg</li>
+                        <li id="s_name">200/kg</li>
+                        <li id="s_name">200/kg</li>
+                        <li id="s_name">200/kg</li>
+                        <li id="s_name">200/kg</li>
+                    </ol>
+
+
+
+
+                </td>
+            </tr>
+
+        </table>
+        
+
+        <feildset id="frm_box">
+            <legend>Order Online </legend>
+            <form id="order_online">
+                Buyer Name<br>
+                <input type="text" name="name" id="order_input"><br><br>
+                Mobile No<br>
+                <input type="number" name="mobile" id="order_input"><br><br>
+               Choose Sweets<br>
+
+               <select name="Choose_sweets" id="order_input">
+                <option value="rasgulla">Rasgulla</option>
+                <option value="Barfee">Barfee</option>
+                <option value="rasmalai">Rasmalai</option>
+                <option value="laddo">laddo</option>
+                
+
+               </select>
+
+               <br><br>
+               Quantity <br>
+               <input type="text" name="quantity" id="order_input">
+               <br><br>
+               Address<br>
+               <textarea name="address"></textarea>
+               <br><br>
+               <input type="submit" value="Order Now " id="submit_btn">
+                
+            </form>
+
+        </feildset>
+       <div id="abt_us">
+        <h1 align="center" id="abt_title">About Us</h1>
+        <hr>
+        <p id="abt_text">
+            India is known for its wide variety of sweets, which come in different flavors and textures. 
+            Some popular sweets include Kaju Katli, Rasmalai, Ladoo, Cham Cham, Besan Laddu, Anarsa, and Basundi1. 
+            Other traditional sweets from different regions of India include Imarti, Jalebi, Pootharekulu, Chenna Poda, 
+            and Rosogolla1. Milk is a common ingredient in many Indian sweets, such as rabri, basundi, khurchan, barfis,
+             pedas, kulfi, and rasmalai1. Some popular sweets and snacks for the Holi festival are Gujiya, Thandai, and Dahi
+              Bhalla1. Is there a specific sweet you would like to know more about? 😊India is known for its wide variety of sweets, which come in different flavors and textures. 
+              Some popular sweets include Kaju Katli, Rasmalai, Ladoo, Cham Cham, Besan Laddu, Anarsa, and Basundi1. 
+              Other traditional sweets from different regions of India include Imarti, Jalebi, Pootharekulu, Chenna Poda, 
+              and Rosogolla1. 
+        </p>
+
+       </div>
+       <div id="m_sweets">
+        <h1 id="more_sweets">More Sweets</h1>
+       </div>
+       <div id="sweets">
+        <img src="images/e.png" id="sweets_pic">
+        <center>
+          <a href="#frm_box">  <button id="buy_btn">Buy Now</button></a>
+         </center>
+        
+       </div>
+
+       <div id="sweets">
+        <img src="images/h.jpg" id="sweets_pic">
+        <center>
+            <a href="#frm_box">  <button id="buy_btn">Buy Now</button></a>
+         </center>
+
+       </div>
+
+       <div id="sweets">
+        <img src="images/g.jpg" id="sweets_pic">
+        <center>
+            <a href="#frm_box">  <button id="buy_btn">Buy Now</button></a>
+         </center>
+
+       </div>
+
+       <div id="sweets">
+        <img src="images/h.jpg" id="sweets_pic">
+        <center>
+            <a href="#frm_box">  <button id="buy_btn">Buy Now</button></a>
+         </center>
+
+       </div>
+
+       <div id="sweets">
+        <img src="images/e.png" id="sweets_pic">
+        <center>
+            <a href="#frm_box">  <button id="buy_btn">Buy Now</button></a>
+         </center>
+
+       </div>
+
+       <div id="sweets_end">
+        <img src="images/g.jpg" id="sweets_pic">
+        <center>
+            <a href="#frm_box">  <button id="buy_btn">Buy Now</button></a>
+         </center>
+
+       </div>
+
+
+       </section> 
+       <footer>
+        <div id="contact_us">
+            <h1 id="contact_title">Contact Us</h1>
+            <address id="contact_details">Website :sweetshop.com</address>
+            <address id="contact_details">Phone No : +919572297127</address>
+            <address id="contact_details">Address : Patel Nagar New Delhi</address>
+            <address id="contact_details">Emails  : sweetsshop@gmail.com</address>
+        </div>
+        <div id="developer">Developed By : Rahul Choudhary</div>
+
+        <div id="social_link">
+            <h1 id="contact_title"> Follow Us</h1>
+          <a href=" https://www.facebook.com/mrphotography.rahul"><img src="images/facebook.png" id="social_logo"></a>
+           <a href="https://www.linkedin.com/in/rahul-choudhary-6478ab248 "> <img src="images/linkden.png" id="social_logo"></a>
+           <a href="https://twitter.com/RahulCh45607496?t=ObDl4z2Yf6EDJWdqNSAjRQ&s=08 "> <img src="images/twitter.png" id="social_logo"></a>
+        </div>
+
+
+       </footer>  
+
+    </body>
+
+
+        </head>
+    </html>
+</DOCTYPE>
+
